@@ -17,3 +17,12 @@ public class FooController {
         return ResponseEntity.ok("Private route ok");
     }
 }
+
+
+
+
+
+
+
+
+
