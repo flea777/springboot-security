@@ -1,4 +1,4 @@
-package io.github.flea777.domain.entity;
+package io.github.flea777.sboot_security.domain.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -8,14 +8,12 @@ import lombok.Data;
 
 @Entity
 @Data
-public class User {
+public class Group {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
     
     private String name;
-    private String login;
-    private String password;
 
 }

@@ -1,4 +1,4 @@
-package io.github.flea777.domain.entity;
+package io.github.flea777.sboot_security.domain.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
